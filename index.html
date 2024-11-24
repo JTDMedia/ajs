@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android.js - Power Node.js on Android</title>
+  <style>
+    /* Global styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #121212, #1a1a1a);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(120deg, #ff4e50, #f9d423);
+      animation: gradient-shift 8s ease infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @keyframes gradient-shift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 20px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      color: #ff9a00;
+    }
+
+    /* Gradient cards */
+    .card {
+      background: linear-gradient(45deg, #232526, #414345);
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      margin: 20px 0;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #21d4fd, #b721ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Button styles */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background: linear-gradient(90deg, #ff416c, #ff4b2b);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    }
+
+    /* Footer styles */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    }
+
+    footer a {
+      color: #ff9a00;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Android.js</h1>
+    <p>Bring the power of Node.js to your Android device</p>
+  </header>
+
+  <section>
+    <h2>What is Android.js?</h2>
+    <div class="card">
+      <h3>A Powerful Framework for Developers</h3>
+      <p>Android.js is a revolutionary framework that lets you run Node.js on your Android device. Built for developers with experience in Node.js, it makes it easier than ever to manage server-side JavaScript directly on Android.</p>
+    </div>
+    <div class="card">
+      <h3>Official Code Editor</h3>
+      <p>To enhance your development experience, Android.js offers an <strong>official code editor</strong> for seamless integration. Edit, debug, and run your projects without leaving your mobile device.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>How to Install Android.js</h2>
+    <div class="card">
+      <h3>Quick Installation Guide</h3>
+      <ol>
+        <li>Download the APK from the <a href="https://github.com/JTDMedia/android.js/releases" class="btn">GitHub Releases</a>.</li>
+        <li>Install the APK on your Android device.</li>
+        <li>Open the app and grant all necessary permissions.</li>
+        <li>Select the folder containing your Node.js project.</li>
+        <li>Use the console to manage your project:
+          <ul>
+            <li>Replace <code>node</code> with <code>droid</code>.</li>
+            <li>Replace <code>npm</code> with <code>apm</code>.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <div class="card">
+      <ul>
+        <li>Run Node.js applications on Android devices.</li>
+        <li>Lightweight and efficient framework.</li>
+        <li>Compatible with Android 11 and higher.</li>
+        <li>Requires >4GB RAM and 1GB storage.</li>
+        <li>Fully customizable console and file access.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by <strong>JTDMedia</strong>. Visit the <a href="https://github.com/JTDMedia">official GitHub</a> for more information.</p>
+  </footer>
+</body>
+</html>
